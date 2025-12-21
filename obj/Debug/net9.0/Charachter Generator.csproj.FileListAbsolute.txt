@@ -1,0 +1,14 @@
+/home/leinarsson/Documents/Programmering/Charachter Generator/bin/Debug/net9.0/Charachter Generator
+/home/leinarsson/Documents/Programmering/Charachter Generator/bin/Debug/net9.0/Charachter Generator.deps.json
+/home/leinarsson/Documents/Programmering/Charachter Generator/bin/Debug/net9.0/Charachter Generator.runtimeconfig.json
+/home/leinarsson/Documents/Programmering/Charachter Generator/bin/Debug/net9.0/Charachter Generator.dll
+/home/leinarsson/Documents/Programmering/Charachter Generator/bin/Debug/net9.0/Charachter Generator.pdb
+/home/leinarsson/Documents/Programmering/Charachter Generator/obj/Debug/net9.0/Charachter Generator.GeneratedMSBuildEditorConfig.editorconfig
+/home/leinarsson/Documents/Programmering/Charachter Generator/obj/Debug/net9.0/Charachter Generator.AssemblyInfoInputs.cache
+/home/leinarsson/Documents/Programmering/Charachter Generator/obj/Debug/net9.0/Charachter Generator.AssemblyInfo.cs
+/home/leinarsson/Documents/Programmering/Charachter Generator/obj/Debug/net9.0/Charachter Generator.csproj.CoreCompileInputs.cache
+/home/leinarsson/Documents/Programmering/Charachter Generator/obj/Debug/net9.0/Charachter Generator.dll
+/home/leinarsson/Documents/Programmering/Charachter Generator/obj/Debug/net9.0/refint/Charachter Generator.dll
+/home/leinarsson/Documents/Programmering/Charachter Generator/obj/Debug/net9.0/Charachter Generator.pdb
+/home/leinarsson/Documents/Programmering/Charachter Generator/obj/Debug/net9.0/Charachter Generator.genruntimeconfig.cache
+/home/leinarsson/Documents/Programmering/Charachter Generator/obj/Debug/net9.0/ref/Charachter Generator.dll
