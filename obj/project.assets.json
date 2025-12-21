@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/home/leinarsson/.nuget/packages/": {}
+    "/home/FuxiT/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/leinarsson/Documents/Programmering/Charachter Generator/Charachter Generator.csproj",
+      "projectUniqueName": "/home/FuxiT/Documents/Character-Generator/Charachter Generator.csproj",
       "projectName": "Charachter Generator",
-      "projectPath": "/home/leinarsson/Documents/Programmering/Charachter Generator/Charachter Generator.csproj",
-      "packagesPath": "/home/leinarsson/.nuget/packages/",
-      "outputPath": "/home/leinarsson/Documents/Programmering/Charachter Generator/obj/",
+      "projectPath": "/home/FuxiT/Documents/Character-Generator/Charachter Generator.csproj",
+      "packagesPath": "/home/FuxiT/.nuget/packages/",
+      "outputPath": "/home/FuxiT/Documents/Character-Generator/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/leinarsson/.nuget/NuGet/NuGet.Config"
+        "/home/FuxiT/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"

@@ -12,3 +12,18 @@
 /home/leinarsson/Documents/Programmering/Charachter Generator/obj/Debug/net9.0/Charachter Generator.pdb
 /home/leinarsson/Documents/Programmering/Charachter Generator/obj/Debug/net9.0/Charachter Generator.genruntimeconfig.cache
 /home/leinarsson/Documents/Programmering/Charachter Generator/obj/Debug/net9.0/ref/Charachter Generator.dll
+/home/FuxiT/Documents/Character-Generator/bin/Debug/net9.0/Charachter Generator
+/home/FuxiT/Documents/Character-Generator/bin/Debug/net9.0/Charachter Generator.deps.json
+/home/FuxiT/Documents/Character-Generator/bin/Debug/net9.0/Charachter Generator.runtimeconfig.json
+/home/FuxiT/Documents/Character-Generator/bin/Debug/net9.0/Charachter Generator.dll
+/home/FuxiT/Documents/Character-Generator/bin/Debug/net9.0/Charachter Generator.pdb
+/home/FuxiT/Documents/Character-Generator/obj/Debug/net9.0/Charachter Generator.GeneratedMSBuildEditorConfig.editorconfig
+/home/FuxiT/Documents/Character-Generator/obj/Debug/net9.0/Charachter Generator.AssemblyInfoInputs.cache
+/home/FuxiT/Documents/Character-Generator/obj/Debug/net9.0/Charachter Generator.AssemblyInfo.cs
+/home/FuxiT/Documents/Character-Generator/obj/Debug/net9.0/Charachter Generator.csproj.CoreCompileInputs.cache
+/home/FuxiT/Documents/Character-Generator/obj/Debug/net9.0/Charachter Generator.sourcelink.json
+/home/FuxiT/Documents/Character-Generator/obj/Debug/net9.0/Charachter Generator.dll
+/home/FuxiT/Documents/Character-Generator/obj/Debug/net9.0/refint/Charachter Generator.dll
+/home/FuxiT/Documents/Character-Generator/obj/Debug/net9.0/Charachter Generator.pdb
+/home/FuxiT/Documents/Character-Generator/obj/Debug/net9.0/Charachter Generator.genruntimeconfig.cache
+/home/FuxiT/Documents/Character-Generator/obj/Debug/net9.0/ref/Charachter Generator.dll
