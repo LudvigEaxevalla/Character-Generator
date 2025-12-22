@@ -27,3 +27,4 @@
 /home/FuxiT/Documents/Character-Generator/obj/Debug/net9.0/Charachter Generator.pdb
 /home/FuxiT/Documents/Character-Generator/obj/Debug/net9.0/Charachter Generator.genruntimeconfig.cache
 /home/FuxiT/Documents/Character-Generator/obj/Debug/net9.0/ref/Charachter Generator.dll
+/home/leinarsson/Documents/Programmering/Charachter Generator/obj/Debug/net9.0/Charachter Generator.sourcelink.json

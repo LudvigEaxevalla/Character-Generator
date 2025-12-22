@@ -1,10 +1,13 @@
 ﻿using System.Net.NetworkInformation;
+using System;
 using System.IO;
 
 
 Random rnd = new Random();
 string name = "";
-string path = @"";
+string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+string charactersFolder = Path.Combine(path, "Characters");
+string filePath = Path.Combine(charactersFolder, name + ".txt");
 int ageDice = rnd.Next(15,90);
 int dice = rnd.Next(1,20);
 
@@ -45,6 +48,7 @@ bool validName = false;
 
 
 Console.Clear();
+Directory.CreateDirectory(charactersFolder);
 
 Console.WriteLine("Choose a name for your charachter");
 
@@ -62,9 +66,11 @@ while (!validName)
     else
     {
         validName = true;
+        filePath = Path.Combine(charactersFolder, name + ".txt");
     }
 }
 path = "/home/FuxiT/Documents/Character-Generator/Charachters/" + name;
+
 
 if (File.Exists(path))
 {
@@ -303,19 +309,25 @@ void Age()
 
 Console.Clear();
 Stammina();
+Console.ReadKey();
 Strength();
 durability = stammina + strength / 4;
 Console.WriteLine("Durability: " + durability);
 Console.WriteLine("");
+Console.ReadKey();
 Charisma();
+Console.ReadKey();
 Education();
+Console.ReadKey();
 Intelligence();
+Console.ReadKey();
 Console.WriteLine("");
 Luck();
+Console.ReadKey();
 Recklessness();
+Console.ReadKey();
 Stubborness();
 Console.ReadKey();
-
 Console.Clear();
 
 Console.WriteLine("Name: " + name);
@@ -428,7 +440,8 @@ while (!saveOption)
     
     if (save == "y" || save == "Y")
     {
-        File.WriteAllText(path, "Name: " + name +
+        File.WriteAllText(filePath, 
+        "Name: " + name +
         "\nFrom: " + country +
         "\nGender: " + gender[selectedGender-1] +
         "\nPersonality Trait: " + personalityTrait[selectedPersonalityTrait-1] +
@@ -445,10 +458,7 @@ while (!saveOption)
         "\nLuck: " + luck +
         "\nRecklessness: " + recklessness +
         "\nStubborness: " + stubborness +
-        "\nDescripton: '" + description+ "'"  +
-        "\nDesire: " + desires[selectedDesire-1] +
-        "\nBelives in: " + beliefe[selectedBelife-1] +
-        "\nDislikes: " + dislikes[selectedDislikes-1]
+        "\nDescripton: '" + description+ "'"
         );
 
         Console.WriteLine("Saved as " + name + ".txt in " + path);
