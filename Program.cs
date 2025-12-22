@@ -72,7 +72,7 @@ while (!validName)
 path = "/home/FuxiT/Documents/Character-Generator/Charachters/" + name;
 
 
-if (File.Exists(path))
+if (File.Exists(filePath))
 {
     Console.Clear();
     Console.ForegroundColor = ConsoleColor.Red;
@@ -461,7 +461,7 @@ while (!saveOption)
         "\nDescripton: '" + description+ "'"
         );
 
-        Console.WriteLine("Saved as " + name + ".txt in " + path);
+        Console.WriteLine("Saved as " + name + ".txt in " + filePath);
         saveOption = true;
         Environment.Exit(0);
     }
