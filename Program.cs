@@ -6,8 +6,8 @@ using System.IO;
 Random rnd = new Random();
 string name = "";
 string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-string charactersFolder = Path.Combine(path, "Characters");
-string filePath = Path.Combine(charactersFolder, name + ".txt");
+string charactersFolder = Path.Combine(path, "Characters/");
+string filePath = Path.Combine(charactersFolder, name);
 int ageDice = rnd.Next(15,90);
 int dice = rnd.Next(1,20);
 
@@ -49,6 +49,7 @@ bool validName = false;
 
 Console.Clear();
 Directory.CreateDirectory(charactersFolder);
+Directory.GetFiles(charactersFolder);
 
 Console.WriteLine("Choose a name for your charachter");
 
@@ -66,10 +67,9 @@ while (!validName)
     else
     {
         validName = true;
-        filePath = Path.Combine(charactersFolder, name + ".txt");
+        filePath = Path.Combine(charactersFolder, name);
     }
 }
-path = "/home/FuxiT/Documents/Character-Generator/Charachters/" + name;
 
 
 if (File.Exists(filePath))
@@ -77,7 +77,8 @@ if (File.Exists(filePath))
     Console.Clear();
     Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine("Heads up!");
-    Console.WriteLine("A charachter with this name already exists!");
+    Console.WriteLine(name + " is a charachter that already exists!");
+    Console.WriteLine("\n\n" + File.ReadAllText(filePath) + "\n\n");
    // Console.WriteLine(savedCharachters, name);
     Console.WriteLine("Saving this will override the existing file with the same name");
     Console.ResetColor();
@@ -461,7 +462,7 @@ while (!saveOption)
         "\nDescripton: '" + description+ "'"
         );
 
-        Console.WriteLine("Saved as " + name + ".txt in " + filePath);
+        Console.WriteLine("Saved as " + name + " in " + filePath);
         saveOption = true;
         Environment.Exit(0);
     }
